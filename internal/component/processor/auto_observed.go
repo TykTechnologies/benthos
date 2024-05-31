@@ -4,11 +4,11 @@ import (
 	"context"
 	"time"
 
-	"github.com/benthosdev/benthos/v4/internal/component"
-	"github.com/benthosdev/benthos/v4/internal/component/metrics"
-	"github.com/benthosdev/benthos/v4/internal/log"
-	"github.com/benthosdev/benthos/v4/internal/message"
-	"github.com/benthosdev/benthos/v4/internal/tracing"
+	"github.com/TykTechnologies/benthos/v4/internal/component"
+	"github.com/TykTechnologies/benthos/v4/internal/component/metrics"
+	"github.com/TykTechnologies/benthos/v4/internal/log"
+	"github.com/TykTechnologies/benthos/v4/internal/message"
+	"github.com/TykTechnologies/benthos/v4/internal/tracing"
 )
 
 // AutoObserved is a simpler processor interface to implement than V1 as it is

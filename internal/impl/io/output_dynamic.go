@@ -7,13 +7,13 @@ import (
 
 	"gopkg.in/yaml.v3"
 
-	"github.com/benthosdev/benthos/v4/internal/api"
-	"github.com/benthosdev/benthos/v4/internal/bundle"
-	"github.com/benthosdev/benthos/v4/internal/component/interop"
-	"github.com/benthosdev/benthos/v4/internal/component/output"
-	"github.com/benthosdev/benthos/v4/internal/docs"
-	"github.com/benthosdev/benthos/v4/internal/impl/pure"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/TykTechnologies/benthos/v4/internal/api"
+	"github.com/TykTechnologies/benthos/v4/internal/bundle"
+	"github.com/TykTechnologies/benthos/v4/internal/component/interop"
+	"github.com/TykTechnologies/benthos/v4/internal/component/output"
+	"github.com/TykTechnologies/benthos/v4/internal/docs"
+	"github.com/TykTechnologies/benthos/v4/internal/impl/pure"
+	"github.com/TykTechnologies/benthos/v4/public/service"
 )
 
 const (

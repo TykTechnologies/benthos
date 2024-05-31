@@ -4,8 +4,8 @@ import (
 	"context"
 	"sync/atomic"
 
-	iprocessor "github.com/benthosdev/benthos/v4/internal/component/processor"
-	"github.com/benthosdev/benthos/v4/internal/message"
+	iprocessor "github.com/TykTechnologies/benthos/v4/internal/component/processor"
+	"github.com/TykTechnologies/benthos/v4/internal/message"
 )
 
 type tracedProcessor struct {

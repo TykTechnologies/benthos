@@ -3,13 +3,13 @@ package interop
 import (
 	"context"
 
-	"github.com/benthosdev/benthos/v4/internal/batch/policy"
-	"github.com/benthosdev/benthos/v4/internal/bundle"
-	"github.com/benthosdev/benthos/v4/internal/component"
-	"github.com/benthosdev/benthos/v4/internal/component/input"
-	"github.com/benthosdev/benthos/v4/internal/component/output"
-	"github.com/benthosdev/benthos/v4/internal/component/processor"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/TykTechnologies/benthos/v4/internal/batch/policy"
+	"github.com/TykTechnologies/benthos/v4/internal/bundle"
+	"github.com/TykTechnologies/benthos/v4/internal/component"
+	"github.com/TykTechnologies/benthos/v4/internal/component/input"
+	"github.com/TykTechnologies/benthos/v4/internal/component/output"
+	"github.com/TykTechnologies/benthos/v4/internal/component/processor"
+	"github.com/TykTechnologies/benthos/v4/public/service"
 )
 
 // UnwrapOwnedInput attempts to unwrap a public owned component into an internal

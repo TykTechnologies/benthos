@@ -6,9 +6,9 @@ import (
 	"github.com/opensearch-project/opensearch-go/v3/opensearchapi"
 	"github.com/opensearch-project/opensearch-go/v3/signer/awsv2"
 
-	baws "github.com/benthosdev/benthos/v4/internal/impl/aws"
-	"github.com/benthosdev/benthos/v4/internal/impl/opensearch"
-	"github.com/benthosdev/benthos/v4/public/service"
+	baws "github.com/TykTechnologies/benthos/v4/internal/impl/aws"
+	"github.com/TykTechnologies/benthos/v4/internal/impl/opensearch"
+	"github.com/TykTechnologies/benthos/v4/public/service"
 )
 
 func init() {

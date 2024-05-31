@@ -7,11 +7,11 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/benthosdev/benthos/v4/internal/codec/interop"
-	"github.com/benthosdev/benthos/v4/internal/component"
-	"github.com/benthosdev/benthos/v4/internal/component/scanner"
-	"github.com/benthosdev/benthos/v4/internal/httpclient"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/TykTechnologies/benthos/v4/internal/codec/interop"
+	"github.com/TykTechnologies/benthos/v4/internal/component"
+	"github.com/TykTechnologies/benthos/v4/internal/component/scanner"
+	"github.com/TykTechnologies/benthos/v4/internal/httpclient"
+	"github.com/TykTechnologies/benthos/v4/public/service"
 )
 
 func httpClientInputSpec() *service.ConfigSpec {

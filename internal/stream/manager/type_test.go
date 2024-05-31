@@ -8,10 +8,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/benthosdev/benthos/v4/internal/component"
-	"github.com/benthosdev/benthos/v4/internal/component/testutil"
-	bmanager "github.com/benthosdev/benthos/v4/internal/manager"
-	"github.com/benthosdev/benthos/v4/internal/stream"
+	"github.com/TykTechnologies/benthos/v4/internal/component"
+	"github.com/TykTechnologies/benthos/v4/internal/component/testutil"
+	bmanager "github.com/TykTechnologies/benthos/v4/internal/manager"
+	"github.com/TykTechnologies/benthos/v4/internal/stream"
 )
 
 func harmlessConf(t testing.TB) stream.Config {

@@ -2,5 +2,5 @@ package beanstalkd
 
 import (
 	// Bring in the internal plugin definitions.
-	_ "github.com/benthosdev/benthos/v4/internal/impl/beanstalkd"
+	_ "github.com/TykTechnologies/benthos/v4/internal/impl/beanstalkd"
 )

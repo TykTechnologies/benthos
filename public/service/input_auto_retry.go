@@ -5,7 +5,7 @@ import (
 	"errors"
 	"sync/atomic"
 
-	"github.com/benthosdev/benthos/v4/internal/autoretry"
+	"github.com/TykTechnologies/benthos/v4/internal/autoretry"
 )
 
 // AutoRetryNacksToggled wraps an input implementation with AutoRetryNacks only

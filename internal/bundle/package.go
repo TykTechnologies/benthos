@@ -16,19 +16,19 @@ import (
 
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/benthosdev/benthos/v4/internal/bloblang"
-	"github.com/benthosdev/benthos/v4/internal/bloblang/query"
-	"github.com/benthosdev/benthos/v4/internal/component/buffer"
-	"github.com/benthosdev/benthos/v4/internal/component/cache"
-	"github.com/benthosdev/benthos/v4/internal/component/input"
-	"github.com/benthosdev/benthos/v4/internal/component/metrics"
-	"github.com/benthosdev/benthos/v4/internal/component/output"
-	"github.com/benthosdev/benthos/v4/internal/component/processor"
-	"github.com/benthosdev/benthos/v4/internal/component/ratelimit"
-	"github.com/benthosdev/benthos/v4/internal/component/scanner"
-	"github.com/benthosdev/benthos/v4/internal/filepath/ifs"
-	"github.com/benthosdev/benthos/v4/internal/log"
-	"github.com/benthosdev/benthos/v4/internal/message"
+	"github.com/TykTechnologies/benthos/v4/internal/bloblang"
+	"github.com/TykTechnologies/benthos/v4/internal/bloblang/query"
+	"github.com/TykTechnologies/benthos/v4/internal/component/buffer"
+	"github.com/TykTechnologies/benthos/v4/internal/component/cache"
+	"github.com/TykTechnologies/benthos/v4/internal/component/input"
+	"github.com/TykTechnologies/benthos/v4/internal/component/metrics"
+	"github.com/TykTechnologies/benthos/v4/internal/component/output"
+	"github.com/TykTechnologies/benthos/v4/internal/component/processor"
+	"github.com/TykTechnologies/benthos/v4/internal/component/ratelimit"
+	"github.com/TykTechnologies/benthos/v4/internal/component/scanner"
+	"github.com/TykTechnologies/benthos/v4/internal/filepath/ifs"
+	"github.com/TykTechnologies/benthos/v4/internal/log"
+	"github.com/TykTechnologies/benthos/v4/internal/message"
 )
 
 var (

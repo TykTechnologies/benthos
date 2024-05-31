@@ -8,7 +8,7 @@ import (
 	"github.com/nats-io/nkeys"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/TykTechnologies/benthos/v4/public/service"
 )
 
 const (

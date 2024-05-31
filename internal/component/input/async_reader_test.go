@@ -13,10 +13,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/benthosdev/benthos/v4/internal/component"
-	"github.com/benthosdev/benthos/v4/internal/component/input"
-	"github.com/benthosdev/benthos/v4/internal/manager/mock"
-	"github.com/benthosdev/benthos/v4/internal/message"
+	"github.com/TykTechnologies/benthos/v4/internal/component"
+	"github.com/TykTechnologies/benthos/v4/internal/component/input"
+	"github.com/TykTechnologies/benthos/v4/internal/manager/mock"
+	"github.com/TykTechnologies/benthos/v4/internal/message"
 )
 
 type mockAsyncReader struct {

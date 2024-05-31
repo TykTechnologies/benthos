@@ -10,10 +10,10 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/urfave/cli/v2"
 
-	icli "github.com/benthosdev/benthos/v4/internal/cli"
+	icli "github.com/TykTechnologies/benthos/v4/internal/cli"
 
-	_ "github.com/benthosdev/benthos/v4/public/components/io"
-	_ "github.com/benthosdev/benthos/v4/public/components/pure"
+	_ "github.com/TykTechnologies/benthos/v4/public/components/io"
+	_ "github.com/TykTechnologies/benthos/v4/public/components/pure"
 )
 
 func executeLintSubcmd(t *testing.T, args []string) (exitCode int, printedErr string) {

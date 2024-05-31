@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"io/fs"
 
-	iprocessor "github.com/benthosdev/benthos/v4/internal/component/processor"
-	"github.com/benthosdev/benthos/v4/internal/config/test"
-	"github.com/benthosdev/benthos/v4/internal/message"
+	iprocessor "github.com/TykTechnologies/benthos/v4/internal/component/processor"
+	"github.com/TykTechnologies/benthos/v4/internal/config/test"
+	"github.com/TykTechnologies/benthos/v4/internal/message"
 )
 
 // CaseFailure encapsulates information about a failed test case.

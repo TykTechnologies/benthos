@@ -14,7 +14,7 @@ import (
 	"github.com/prometheus/client_golang/prometheus/push"
 	"github.com/prometheus/common/model"
 
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/TykTechnologies/benthos/v4/public/service"
 )
 
 const (

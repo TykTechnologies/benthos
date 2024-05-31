@@ -14,8 +14,8 @@ import (
 	"github.com/cenkalti/backoff/v4"
 	"golang.org/x/sync/syncmap"
 
-	"github.com/benthosdev/benthos/v4/public/bloblang"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/TykTechnologies/benthos/v4/public/bloblang"
+	"github.com/TykTechnologies/benthos/v4/public/service"
 )
 
 const (

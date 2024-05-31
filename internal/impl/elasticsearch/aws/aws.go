@@ -14,9 +14,9 @@ import (
 
 	"github.com/olivere/elastic/v7"
 
-	baws "github.com/benthosdev/benthos/v4/internal/impl/aws"
-	"github.com/benthosdev/benthos/v4/internal/impl/elasticsearch"
-	"github.com/benthosdev/benthos/v4/public/service"
+	baws "github.com/TykTechnologies/benthos/v4/internal/impl/aws"
+	"github.com/TykTechnologies/benthos/v4/internal/impl/elasticsearch"
+	"github.com/TykTechnologies/benthos/v4/public/service"
 
 	"github.com/aws/aws-sdk-go-v2/aws"
 	v4 "github.com/aws/aws-sdk-go-v2/aws/signer/v4"
@@ -35,7 +35,7 @@ func init() {
 
 		region := tsess.Region
 		if region == "" {
-			return nil, errors.New("unable to detect target AWS region, if you encounter this error please report it via: https://github.com/benthosdev/benthos/issues/new")
+			return nil, errors.New("unable to detect target AWS region, if you encounter this error please report it via: https://github.com/TykTechnologies/benthos/issues/new")
 		}
 
 		creds, err := tsess.Credentials.Retrieve(context.TODO())

@@ -14,11 +14,11 @@ import (
 	"github.com/Jeffail/gabs/v2"
 	"gopkg.in/yaml.v3"
 
-	"github.com/benthosdev/benthos/v4/internal/bundle"
-	"github.com/benthosdev/benthos/v4/internal/docs"
-	"github.com/benthosdev/benthos/v4/internal/filepath/ifs"
-	"github.com/benthosdev/benthos/v4/internal/manager"
-	"github.com/benthosdev/benthos/v4/internal/stream"
+	"github.com/TykTechnologies/benthos/v4/internal/bundle"
+	"github.com/TykTechnologies/benthos/v4/internal/docs"
+	"github.com/TykTechnologies/benthos/v4/internal/filepath/ifs"
+	"github.com/TykTechnologies/benthos/v4/internal/manager"
+	"github.com/TykTechnologies/benthos/v4/internal/stream"
 )
 
 const (

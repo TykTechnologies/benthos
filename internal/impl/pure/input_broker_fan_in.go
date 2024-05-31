@@ -7,8 +7,8 @@ import (
 
 	"github.com/Jeffail/shutdown"
 
-	"github.com/benthosdev/benthos/v4/internal/component/input"
-	"github.com/benthosdev/benthos/v4/internal/message"
+	"github.com/TykTechnologies/benthos/v4/internal/component/input"
+	"github.com/TykTechnologies/benthos/v4/internal/message"
 )
 
 type fanInInputBroker struct {

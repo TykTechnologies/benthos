@@ -4,13 +4,13 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/benthosdev/benthos/v4/internal/bloblang"
-	"github.com/benthosdev/benthos/v4/internal/bloblang/mapping"
-	"github.com/benthosdev/benthos/v4/internal/bloblang/parser"
-	"github.com/benthosdev/benthos/v4/internal/bloblang/query"
-	"github.com/benthosdev/benthos/v4/internal/log"
-	"github.com/benthosdev/benthos/v4/internal/message"
-	"github.com/benthosdev/benthos/v4/internal/value"
+	"github.com/TykTechnologies/benthos/v4/internal/bloblang"
+	"github.com/TykTechnologies/benthos/v4/internal/bloblang/mapping"
+	"github.com/TykTechnologies/benthos/v4/internal/bloblang/parser"
+	"github.com/TykTechnologies/benthos/v4/internal/bloblang/query"
+	"github.com/TykTechnologies/benthos/v4/internal/log"
+	"github.com/TykTechnologies/benthos/v4/internal/message"
+	"github.com/TykTechnologies/benthos/v4/internal/value"
 )
 
 // Mapping is a compiled Bloblang mapping used to rewrite metrics.

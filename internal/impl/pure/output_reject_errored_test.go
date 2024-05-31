@@ -10,15 +10,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/benthosdev/benthos/v4/internal/bundle"
-	"github.com/benthosdev/benthos/v4/internal/manager/mock"
-	"github.com/benthosdev/benthos/v4/internal/message"
+	"github.com/TykTechnologies/benthos/v4/internal/bundle"
+	"github.com/TykTechnologies/benthos/v4/internal/manager/mock"
+	"github.com/TykTechnologies/benthos/v4/internal/message"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	_ "github.com/benthosdev/benthos/v4/public/components/io"
-	_ "github.com/benthosdev/benthos/v4/public/components/pure"
+	_ "github.com/TykTechnologies/benthos/v4/public/components/io"
+	_ "github.com/TykTechnologies/benthos/v4/public/components/pure"
 )
 
 func TestRejectErroredHappy(t *testing.T) {

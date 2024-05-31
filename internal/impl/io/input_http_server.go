@@ -23,19 +23,19 @@ import (
 
 	"github.com/Jeffail/shutdown"
 
-	"github.com/benthosdev/benthos/v4/internal/api"
-	"github.com/benthosdev/benthos/v4/internal/bundle"
-	"github.com/benthosdev/benthos/v4/internal/component/input"
-	"github.com/benthosdev/benthos/v4/internal/component/interop"
-	"github.com/benthosdev/benthos/v4/internal/component/metrics"
-	"github.com/benthosdev/benthos/v4/internal/component/ratelimit"
-	"github.com/benthosdev/benthos/v4/internal/httpserver"
-	"github.com/benthosdev/benthos/v4/internal/log"
-	"github.com/benthosdev/benthos/v4/internal/message"
-	"github.com/benthosdev/benthos/v4/internal/old/util/throttle"
-	"github.com/benthosdev/benthos/v4/internal/tracing"
-	"github.com/benthosdev/benthos/v4/internal/transaction"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/TykTechnologies/benthos/v4/internal/api"
+	"github.com/TykTechnologies/benthos/v4/internal/bundle"
+	"github.com/TykTechnologies/benthos/v4/internal/component/input"
+	"github.com/TykTechnologies/benthos/v4/internal/component/interop"
+	"github.com/TykTechnologies/benthos/v4/internal/component/metrics"
+	"github.com/TykTechnologies/benthos/v4/internal/component/ratelimit"
+	"github.com/TykTechnologies/benthos/v4/internal/httpserver"
+	"github.com/TykTechnologies/benthos/v4/internal/log"
+	"github.com/TykTechnologies/benthos/v4/internal/message"
+	"github.com/TykTechnologies/benthos/v4/internal/old/util/throttle"
+	"github.com/TykTechnologies/benthos/v4/internal/tracing"
+	"github.com/TykTechnologies/benthos/v4/internal/transaction"
+	"github.com/TykTechnologies/benthos/v4/public/service"
 )
 
 const (

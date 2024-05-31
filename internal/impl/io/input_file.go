@@ -7,11 +7,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/benthosdev/benthos/v4/internal/codec/interop"
-	"github.com/benthosdev/benthos/v4/internal/component"
-	"github.com/benthosdev/benthos/v4/internal/component/scanner"
-	"github.com/benthosdev/benthos/v4/internal/filepath"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/TykTechnologies/benthos/v4/internal/codec/interop"
+	"github.com/TykTechnologies/benthos/v4/internal/component"
+	"github.com/TykTechnologies/benthos/v4/internal/component/scanner"
+	"github.com/TykTechnologies/benthos/v4/internal/filepath"
+	"github.com/TykTechnologies/benthos/v4/public/service"
 )
 
 const (

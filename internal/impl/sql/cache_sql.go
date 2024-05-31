@@ -11,7 +11,7 @@ import (
 
 	"github.com/Jeffail/shutdown"
 
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/TykTechnologies/benthos/v4/public/service"
 )
 
 const (

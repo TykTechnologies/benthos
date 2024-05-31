@@ -12,9 +12,9 @@ import (
 	"github.com/cenkalti/backoff/v4"
 	"github.com/olivere/elastic/v7"
 
-	"github.com/benthosdev/benthos/v4/internal/impl/aws/config"
-	"github.com/benthosdev/benthos/v4/internal/impl/pure"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/TykTechnologies/benthos/v4/internal/impl/aws/config"
+	"github.com/TykTechnologies/benthos/v4/internal/impl/pure"
+	"github.com/TykTechnologies/benthos/v4/public/service"
 )
 
 const (

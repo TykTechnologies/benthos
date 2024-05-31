@@ -5,9 +5,9 @@ import (
 	"errors"
 	"sync/atomic"
 
-	"github.com/benthosdev/benthos/v4/internal/autoretry"
-	"github.com/benthosdev/benthos/v4/internal/batch"
-	"github.com/benthosdev/benthos/v4/internal/message"
+	"github.com/TykTechnologies/benthos/v4/internal/autoretry"
+	"github.com/TykTechnologies/benthos/v4/internal/batch"
+	"github.com/TykTechnologies/benthos/v4/internal/message"
 )
 
 // AutoRetryNacksBatchedToggled wraps an input implementation with

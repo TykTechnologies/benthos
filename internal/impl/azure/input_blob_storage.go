@@ -15,10 +15,10 @@ import (
 	"github.com/Azure/azure-sdk-for-go/sdk/storage/azblob"
 	"github.com/Jeffail/gabs/v2"
 
-	"github.com/benthosdev/benthos/v4/internal/codec"
-	"github.com/benthosdev/benthos/v4/internal/codec/interop"
-	"github.com/benthosdev/benthos/v4/internal/component/scanner"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/TykTechnologies/benthos/v4/internal/codec"
+	"github.com/TykTechnologies/benthos/v4/internal/codec/interop"
+	"github.com/TykTechnologies/benthos/v4/internal/component/scanner"
+	"github.com/TykTechnologies/benthos/v4/public/service"
 )
 
 const (

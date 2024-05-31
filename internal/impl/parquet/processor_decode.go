@@ -9,7 +9,7 @@ import (
 
 	"github.com/parquet-go/parquet-go"
 
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/TykTechnologies/benthos/v4/public/service"
 )
 
 func parquetDecodeProcessorConfig() *service.ConfigSpec {

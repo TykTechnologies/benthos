@@ -9,18 +9,18 @@ import (
 
 	"go.opentelemetry.io/otel/trace/noop"
 
-	"github.com/benthosdev/benthos/v4/internal/bundle"
-	"github.com/benthosdev/benthos/v4/internal/component/metrics"
-	ioutput "github.com/benthosdev/benthos/v4/internal/component/output"
-	"github.com/benthosdev/benthos/v4/internal/component/processor"
-	"github.com/benthosdev/benthos/v4/internal/config"
-	"github.com/benthosdev/benthos/v4/internal/filepath/ifs"
-	"github.com/benthosdev/benthos/v4/internal/log"
-	"github.com/benthosdev/benthos/v4/internal/manager"
-	"github.com/benthosdev/benthos/v4/internal/manager/mock"
-	"github.com/benthosdev/benthos/v4/internal/message"
-	"github.com/benthosdev/benthos/v4/internal/pipeline"
-	"github.com/benthosdev/benthos/v4/internal/transaction"
+	"github.com/TykTechnologies/benthos/v4/internal/bundle"
+	"github.com/TykTechnologies/benthos/v4/internal/component/metrics"
+	ioutput "github.com/TykTechnologies/benthos/v4/internal/component/output"
+	"github.com/TykTechnologies/benthos/v4/internal/component/processor"
+	"github.com/TykTechnologies/benthos/v4/internal/config"
+	"github.com/TykTechnologies/benthos/v4/internal/filepath/ifs"
+	"github.com/TykTechnologies/benthos/v4/internal/log"
+	"github.com/TykTechnologies/benthos/v4/internal/manager"
+	"github.com/TykTechnologies/benthos/v4/internal/manager/mock"
+	"github.com/TykTechnologies/benthos/v4/internal/message"
+	"github.com/TykTechnologies/benthos/v4/internal/pipeline"
+	"github.com/TykTechnologies/benthos/v4/internal/transaction"
 )
 
 // ServerlessResponseType is an output type that redirects pipeline outputs back

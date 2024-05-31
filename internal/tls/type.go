@@ -10,7 +10,7 @@ import (
 
 	"github.com/youmark/pkcs8"
 
-	"github.com/benthosdev/benthos/v4/internal/filepath/ifs"
+	"github.com/TykTechnologies/benthos/v4/internal/filepath/ifs"
 )
 
 // ClientCertConfig contains config fields for a client certificate.

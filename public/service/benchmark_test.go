@@ -8,10 +8,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/TykTechnologies/benthos/v4/public/service"
 
-	_ "github.com/benthosdev/benthos/v4/internal/impl/lang"
-	_ "github.com/benthosdev/benthos/v4/public/components/pure"
+	_ "github.com/TykTechnologies/benthos/v4/internal/impl/lang"
+	_ "github.com/TykTechnologies/benthos/v4/public/components/pure"
 )
 
 func BenchmarkStreamPipelines(b *testing.B) {

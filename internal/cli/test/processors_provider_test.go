@@ -11,12 +11,12 @@ import (
 	"github.com/stretchr/testify/require"
 	yaml "gopkg.in/yaml.v3"
 
-	"github.com/benthosdev/benthos/v4/internal/cli/test"
-	"github.com/benthosdev/benthos/v4/internal/component/processor"
-	"github.com/benthosdev/benthos/v4/internal/message"
+	"github.com/TykTechnologies/benthos/v4/internal/cli/test"
+	"github.com/TykTechnologies/benthos/v4/internal/component/processor"
+	"github.com/TykTechnologies/benthos/v4/internal/message"
 
-	_ "github.com/benthosdev/benthos/v4/public/components/io"
-	_ "github.com/benthosdev/benthos/v4/public/components/pure"
+	_ "github.com/TykTechnologies/benthos/v4/public/components/io"
+	_ "github.com/TykTechnologies/benthos/v4/public/components/pure"
 )
 
 func initTestFiles(t *testing.T, files map[string]string) (string, error) {

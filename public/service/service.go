@@ -3,7 +3,7 @@ package service
 import (
 	"context"
 
-	"github.com/benthosdev/benthos/v4/internal/cli"
+	"github.com/TykTechnologies/benthos/v4/internal/cli"
 )
 
 // RunCLI executes Benthos as a CLI, allowing users to specify a configuration

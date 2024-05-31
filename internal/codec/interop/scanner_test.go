@@ -9,11 +9,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/benthosdev/benthos/v4/internal/codec/interop"
-	"github.com/benthosdev/benthos/v4/internal/component/scanner"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/TykTechnologies/benthos/v4/internal/codec/interop"
+	"github.com/TykTechnologies/benthos/v4/internal/component/scanner"
+	"github.com/TykTechnologies/benthos/v4/public/service"
 
-	_ "github.com/benthosdev/benthos/v4/public/components/pure"
+	_ "github.com/TykTechnologies/benthos/v4/public/components/pure"
 )
 
 func TestInteropCodecOldStyle(t *testing.T) {

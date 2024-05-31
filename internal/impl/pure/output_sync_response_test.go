@@ -6,8 +6,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/benthosdev/benthos/v4/internal/message"
-	"github.com/benthosdev/benthos/v4/internal/transaction"
+	"github.com/TykTechnologies/benthos/v4/internal/message"
+	"github.com/TykTechnologies/benthos/v4/internal/transaction"
 )
 
 func TestSyncResponseWriter(t *testing.T) {

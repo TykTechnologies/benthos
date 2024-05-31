@@ -6,10 +6,10 @@ import (
 
 	"gopkg.in/yaml.v3"
 
-	"github.com/benthosdev/benthos/v4/internal/bundle"
-	"github.com/benthosdev/benthos/v4/internal/component/processor"
-	"github.com/benthosdev/benthos/v4/internal/docs"
-	"github.com/benthosdev/benthos/v4/internal/value"
+	"github.com/TykTechnologies/benthos/v4/internal/bundle"
+	"github.com/TykTechnologies/benthos/v4/internal/component/processor"
+	"github.com/TykTechnologies/benthos/v4/internal/docs"
+	"github.com/TykTechnologies/benthos/v4/internal/value"
 )
 
 var threadsField = docs.FieldInt("threads", "The number of threads to execute processing pipelines across.").HasDefault(-1)

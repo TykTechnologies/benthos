@@ -5,7 +5,7 @@ package service
 import (
 	"log/slog"
 
-	"github.com/benthosdev/benthos/v4/internal/log"
+	"github.com/TykTechnologies/benthos/v4/internal/log"
 )
 
 // SetLogger sets a customer logger via Go's standard logging interface,

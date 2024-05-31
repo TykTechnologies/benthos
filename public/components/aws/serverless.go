@@ -3,7 +3,7 @@ package aws
 import (
 	"context"
 
-	"github.com/benthosdev/benthos/v4/internal/serverless/lambda"
+	"github.com/TykTechnologies/benthos/v4/internal/serverless/lambda"
 )
 
 // RunLambda executes Benthos as an AWS Lambda function. Configuration can be

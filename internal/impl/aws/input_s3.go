@@ -17,11 +17,11 @@ import (
 	"github.com/aws/aws-sdk-go-v2/service/sqs"
 	sqstypes "github.com/aws/aws-sdk-go-v2/service/sqs/types"
 
-	"github.com/benthosdev/benthos/v4/internal/codec"
-	"github.com/benthosdev/benthos/v4/internal/codec/interop"
-	"github.com/benthosdev/benthos/v4/internal/component/scanner"
-	"github.com/benthosdev/benthos/v4/internal/impl/aws/config"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/TykTechnologies/benthos/v4/internal/codec"
+	"github.com/TykTechnologies/benthos/v4/internal/codec/interop"
+	"github.com/TykTechnologies/benthos/v4/internal/component/scanner"
+	"github.com/TykTechnologies/benthos/v4/internal/impl/aws/config"
+	"github.com/TykTechnologies/benthos/v4/public/service"
 )
 
 const (

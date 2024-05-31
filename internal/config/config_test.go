@@ -13,15 +13,15 @@ import (
 	"github.com/stretchr/testify/require"
 	"gopkg.in/yaml.v3"
 
-	"github.com/benthosdev/benthos/v4/internal/bundle"
-	"github.com/benthosdev/benthos/v4/internal/component/output"
-	"github.com/benthosdev/benthos/v4/internal/config"
-	"github.com/benthosdev/benthos/v4/internal/docs"
-	"github.com/benthosdev/benthos/v4/internal/manager/mock"
-	"github.com/benthosdev/benthos/v4/internal/stream"
+	"github.com/TykTechnologies/benthos/v4/internal/bundle"
+	"github.com/TykTechnologies/benthos/v4/internal/component/output"
+	"github.com/TykTechnologies/benthos/v4/internal/config"
+	"github.com/TykTechnologies/benthos/v4/internal/docs"
+	"github.com/TykTechnologies/benthos/v4/internal/manager/mock"
+	"github.com/TykTechnologies/benthos/v4/internal/stream"
 
-	_ "github.com/benthosdev/benthos/v4/public/components/io"
-	_ "github.com/benthosdev/benthos/v4/public/components/pure"
+	_ "github.com/TykTechnologies/benthos/v4/public/components/io"
+	_ "github.com/TykTechnologies/benthos/v4/public/components/pure"
 )
 
 func testConfToAny(t testing.TB, conf any) any {

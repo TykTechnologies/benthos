@@ -9,16 +9,16 @@ import (
 
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/benthosdev/benthos/v4/internal/bloblang/mapping"
-	"github.com/benthosdev/benthos/v4/internal/bloblang/query"
-	"github.com/benthosdev/benthos/v4/internal/bundle"
-	"github.com/benthosdev/benthos/v4/internal/component/interop"
-	"github.com/benthosdev/benthos/v4/internal/component/metrics"
-	"github.com/benthosdev/benthos/v4/internal/component/processor"
-	"github.com/benthosdev/benthos/v4/internal/log"
-	"github.com/benthosdev/benthos/v4/internal/message"
-	"github.com/benthosdev/benthos/v4/internal/tracing"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/TykTechnologies/benthos/v4/internal/bloblang/mapping"
+	"github.com/TykTechnologies/benthos/v4/internal/bloblang/query"
+	"github.com/TykTechnologies/benthos/v4/internal/bundle"
+	"github.com/TykTechnologies/benthos/v4/internal/component/interop"
+	"github.com/TykTechnologies/benthos/v4/internal/component/metrics"
+	"github.com/TykTechnologies/benthos/v4/internal/component/processor"
+	"github.com/TykTechnologies/benthos/v4/internal/log"
+	"github.com/TykTechnologies/benthos/v4/internal/message"
+	"github.com/TykTechnologies/benthos/v4/internal/tracing"
+	"github.com/TykTechnologies/benthos/v4/public/service"
 )
 
 const (

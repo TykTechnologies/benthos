@@ -11,11 +11,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/benthosdev/benthos/v4/internal/impl/elasticsearch"
-	"github.com/benthosdev/benthos/v4/public/service"
-	"github.com/benthosdev/benthos/v4/public/service/integration"
+	"github.com/TykTechnologies/benthos/v4/internal/impl/elasticsearch"
+	"github.com/TykTechnologies/benthos/v4/public/service"
+	"github.com/TykTechnologies/benthos/v4/public/service/integration"
 
-	_ "github.com/benthosdev/benthos/v4/internal/impl/elasticsearch/aws"
+	_ "github.com/TykTechnologies/benthos/v4/internal/impl/elasticsearch/aws"
 )
 
 var elasticIndex = `{

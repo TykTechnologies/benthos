@@ -5,10 +5,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/benthosdev/benthos/v4/internal/batch/policy"
-	"github.com/benthosdev/benthos/v4/internal/component"
-	"github.com/benthosdev/benthos/v4/internal/docs"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/TykTechnologies/benthos/v4/internal/batch/policy"
+	"github.com/TykTechnologies/benthos/v4/internal/component"
+	"github.com/TykTechnologies/benthos/v4/internal/docs"
+	"github.com/TykTechnologies/benthos/v4/public/service"
 )
 
 func memoryBufferConfig() *service.ConfigSpec {

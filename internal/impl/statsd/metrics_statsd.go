@@ -8,7 +8,7 @@ import (
 
 	statsd "github.com/smira/go-statsd"
 
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/TykTechnologies/benthos/v4/public/service"
 )
 
 const (

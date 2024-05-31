@@ -9,8 +9,8 @@ import (
 
 	"github.com/Azure/go-amqp"
 
-	"github.com/benthosdev/benthos/v4/public/bloblang"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/TykTechnologies/benthos/v4/public/bloblang"
+	"github.com/TykTechnologies/benthos/v4/public/service"
 )
 
 func amqp1OutputSpec() *service.ConfigSpec {

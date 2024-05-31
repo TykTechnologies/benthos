@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/benthosdev/benthos/v4/internal/bloblang/query"
+	"github.com/TykTechnologies/benthos/v4/internal/bloblang/query"
 )
 
 func functionArgsParser(pCtx Context) Func[[]any] {

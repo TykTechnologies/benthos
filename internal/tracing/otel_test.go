@@ -9,7 +9,7 @@ import (
 	"go.opentelemetry.io/otel/trace"
 	"go.opentelemetry.io/otel/trace/noop"
 
-	"github.com/benthosdev/benthos/v4/internal/message"
+	"github.com/TykTechnologies/benthos/v4/internal/message"
 )
 
 func TestInitSpansFromParentTextMap(t *testing.T) {

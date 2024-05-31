@@ -5,7 +5,7 @@ import (
 
 	"github.com/klauspost/compress/zstd"
 
-	"github.com/benthosdev/benthos/v4/internal/impl/pure"
+	"github.com/TykTechnologies/benthos/v4/internal/impl/pure"
 )
 
 var _ = pure.AddKnownCompressionAlgorithm("zstd", pure.KnownCompressionAlgorithm{

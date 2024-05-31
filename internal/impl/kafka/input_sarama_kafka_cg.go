@@ -7,7 +7,7 @@ import (
 
 	"github.com/IBM/sarama"
 
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/TykTechnologies/benthos/v4/public/service"
 )
 
 // Setup is run at the beginning of a new session, before ConsumeClaim.

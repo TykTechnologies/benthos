@@ -6,9 +6,9 @@ import (
 
 	"github.com/urfave/cli/v2"
 
-	"github.com/benthosdev/benthos/v4/internal/filepath"
-	"github.com/benthosdev/benthos/v4/internal/filepath/ifs"
-	"github.com/benthosdev/benthos/v4/internal/log"
+	"github.com/TykTechnologies/benthos/v4/internal/filepath"
+	"github.com/TykTechnologies/benthos/v4/internal/filepath/ifs"
+	"github.com/TykTechnologies/benthos/v4/internal/log"
 )
 
 // CliCommand is a cli.Command definition for unit testing.

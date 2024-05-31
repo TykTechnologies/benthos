@@ -26,7 +26,7 @@ import (
 	"github.com/youmark/pkcs8"
 	"golang.org/x/crypto/ssh"
 
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/TykTechnologies/benthos/v4/public/service"
 )
 
 const (

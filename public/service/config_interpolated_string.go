@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/benthosdev/benthos/v4/internal/docs"
+	"github.com/TykTechnologies/benthos/v4/internal/docs"
 )
 
 var errInvalidInterpolation = errors.New("failed to parse interpolated field")

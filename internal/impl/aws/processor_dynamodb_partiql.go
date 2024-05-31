@@ -8,9 +8,9 @@ import (
 	"github.com/aws/aws-sdk-go-v2/service/dynamodb"
 	"github.com/aws/aws-sdk-go-v2/service/dynamodb/types"
 
-	"github.com/benthosdev/benthos/v4/internal/impl/aws/config"
-	"github.com/benthosdev/benthos/v4/public/bloblang"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/TykTechnologies/benthos/v4/internal/impl/aws/config"
+	"github.com/TykTechnologies/benthos/v4/public/bloblang"
+	"github.com/TykTechnologies/benthos/v4/public/service"
 )
 
 func init() {

@@ -4,9 +4,9 @@ import (
 	"context"
 	"io"
 
-	"github.com/benthosdev/benthos/v4/internal/codec"
-	"github.com/benthosdev/benthos/v4/internal/component/scanner"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/TykTechnologies/benthos/v4/internal/codec"
+	"github.com/TykTechnologies/benthos/v4/internal/component/scanner"
+	"github.com/TykTechnologies/benthos/v4/public/service"
 )
 
 const (

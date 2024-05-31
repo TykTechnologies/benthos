@@ -10,8 +10,8 @@ import (
 	"net/textproto"
 	"strings"
 
-	"github.com/benthosdev/benthos/v4/internal/value"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/TykTechnologies/benthos/v4/internal/value"
+	"github.com/TykTechnologies/benthos/v4/public/service"
 )
 
 // MultipartExpressions represents three dynamic expressions that define a

@@ -3,8 +3,8 @@ package input
 import (
 	"context"
 
-	iprocessor "github.com/benthosdev/benthos/v4/internal/component/processor"
-	"github.com/benthosdev/benthos/v4/internal/message"
+	iprocessor "github.com/TykTechnologies/benthos/v4/internal/component/processor"
+	"github.com/TykTechnologies/benthos/v4/internal/message"
 )
 
 // WithPipeline is a type that wraps both an input type and a pipeline type

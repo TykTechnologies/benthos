@@ -10,11 +10,11 @@ import (
 
 	"github.com/Jeffail/shutdown"
 
-	"github.com/benthosdev/benthos/v4/internal/api"
-	"github.com/benthosdev/benthos/v4/internal/component/metrics"
-	"github.com/benthosdev/benthos/v4/internal/log"
-	"github.com/benthosdev/benthos/v4/internal/manager"
-	"github.com/benthosdev/benthos/v4/internal/stream"
+	"github.com/TykTechnologies/benthos/v4/internal/api"
+	"github.com/TykTechnologies/benthos/v4/internal/component/metrics"
+	"github.com/TykTechnologies/benthos/v4/internal/log"
+	"github.com/TykTechnologies/benthos/v4/internal/manager"
+	"github.com/TykTechnologies/benthos/v4/internal/stream"
 )
 
 // Stream executes a full Benthos stream and provides methods for performing

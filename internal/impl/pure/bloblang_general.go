@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/benthosdev/benthos/v4/internal/bloblang/query"
-	"github.com/benthosdev/benthos/v4/internal/value"
-	"github.com/benthosdev/benthos/v4/public/bloblang"
+	"github.com/TykTechnologies/benthos/v4/internal/bloblang/query"
+	"github.com/TykTechnologies/benthos/v4/internal/value"
+	"github.com/TykTechnologies/benthos/v4/public/bloblang"
 )
 
 func init() {

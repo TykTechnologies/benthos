@@ -14,16 +14,16 @@ import (
 	"github.com/gorilla/mux"
 	"gopkg.in/yaml.v3"
 
-	"github.com/benthosdev/benthos/v4/internal/component/cache"
-	"github.com/benthosdev/benthos/v4/internal/component/input"
-	"github.com/benthosdev/benthos/v4/internal/component/output"
-	"github.com/benthosdev/benthos/v4/internal/component/processor"
-	"github.com/benthosdev/benthos/v4/internal/component/ratelimit"
-	"github.com/benthosdev/benthos/v4/internal/config"
-	"github.com/benthosdev/benthos/v4/internal/docs"
-	"github.com/benthosdev/benthos/v4/internal/stream"
-	"github.com/benthosdev/benthos/v4/internal/value"
-	"github.com/benthosdev/benthos/v4/public/bloblang"
+	"github.com/TykTechnologies/benthos/v4/internal/component/cache"
+	"github.com/TykTechnologies/benthos/v4/internal/component/input"
+	"github.com/TykTechnologies/benthos/v4/internal/component/output"
+	"github.com/TykTechnologies/benthos/v4/internal/component/processor"
+	"github.com/TykTechnologies/benthos/v4/internal/component/ratelimit"
+	"github.com/TykTechnologies/benthos/v4/internal/config"
+	"github.com/TykTechnologies/benthos/v4/internal/docs"
+	"github.com/TykTechnologies/benthos/v4/internal/stream"
+	"github.com/TykTechnologies/benthos/v4/internal/value"
+	"github.com/TykTechnologies/benthos/v4/public/bloblang"
 )
 
 func (m *Type) registerEndpoints(enableCrud bool) {

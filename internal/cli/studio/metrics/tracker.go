@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/benthosdev/benthos/v4/internal/component/metrics"
+	"github.com/TykTechnologies/benthos/v4/internal/component/metrics"
 )
 
 // Tracker keeps a reference to observed metrics and is capable of flushing the

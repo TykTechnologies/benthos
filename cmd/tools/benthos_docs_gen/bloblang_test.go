@@ -12,12 +12,12 @@ import (
 	"go.opentelemetry.io/otel/propagation"
 	"go.opentelemetry.io/otel/trace/noop"
 
-	"github.com/benthosdev/benthos/v4/internal/bloblang"
-	"github.com/benthosdev/benthos/v4/internal/bloblang/query"
-	"github.com/benthosdev/benthos/v4/internal/message"
-	"github.com/benthosdev/benthos/v4/internal/tracing"
+	"github.com/TykTechnologies/benthos/v4/internal/bloblang"
+	"github.com/TykTechnologies/benthos/v4/internal/bloblang/query"
+	"github.com/TykTechnologies/benthos/v4/internal/message"
+	"github.com/TykTechnologies/benthos/v4/internal/tracing"
 
-	_ "github.com/benthosdev/benthos/v4/public/components/all"
+	_ "github.com/TykTechnologies/benthos/v4/public/components/all"
 )
 
 func TestFunctionExamples(t *testing.T) {

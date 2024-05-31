@@ -11,10 +11,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	icli "github.com/benthosdev/benthos/v4/internal/cli"
+	icli "github.com/TykTechnologies/benthos/v4/internal/cli"
 
-	_ "github.com/benthosdev/benthos/v4/public/components/io"
-	_ "github.com/benthosdev/benthos/v4/public/components/pure"
+	_ "github.com/TykTechnologies/benthos/v4/public/components/io"
+	_ "github.com/TykTechnologies/benthos/v4/public/components/pure"
 )
 
 func TestRunCLIShutdown(t *testing.T) {

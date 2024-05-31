@@ -4,11 +4,11 @@ import (
 	"context"
 	"testing"
 
-	"github.com/benthosdev/benthos/v4/internal/component/processor"
-	"github.com/benthosdev/benthos/v4/internal/manager/mock"
-	"github.com/benthosdev/benthos/v4/internal/message"
+	"github.com/TykTechnologies/benthos/v4/internal/component/processor"
+	"github.com/TykTechnologies/benthos/v4/internal/manager/mock"
+	"github.com/TykTechnologies/benthos/v4/internal/message"
 
-	_ "github.com/benthosdev/benthos/v4/internal/impl/pure"
+	_ "github.com/TykTechnologies/benthos/v4/internal/impl/pure"
 )
 
 func TestResourceProc(t *testing.T) {

@@ -1,7 +1,7 @@
 package test
 
 import (
-	"github.com/benthosdev/benthos/v4/internal/docs"
+	"github.com/TykTechnologies/benthos/v4/internal/docs"
 )
 
 const (

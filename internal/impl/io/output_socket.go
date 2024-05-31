@@ -6,9 +6,9 @@ import (
 	"net"
 	"sync"
 
-	"github.com/benthosdev/benthos/v4/internal/codec"
-	"github.com/benthosdev/benthos/v4/internal/component"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/TykTechnologies/benthos/v4/internal/codec"
+	"github.com/TykTechnologies/benthos/v4/internal/component"
+	"github.com/TykTechnologies/benthos/v4/public/service"
 )
 
 const (

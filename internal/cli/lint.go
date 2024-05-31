@@ -13,11 +13,11 @@ import (
 	"github.com/fatih/color"
 	"github.com/urfave/cli/v2"
 
-	"github.com/benthosdev/benthos/v4/internal/bundle"
-	"github.com/benthosdev/benthos/v4/internal/config"
-	"github.com/benthosdev/benthos/v4/internal/docs"
-	ifilepath "github.com/benthosdev/benthos/v4/internal/filepath"
-	"github.com/benthosdev/benthos/v4/internal/filepath/ifs"
+	"github.com/TykTechnologies/benthos/v4/internal/bundle"
+	"github.com/TykTechnologies/benthos/v4/internal/config"
+	"github.com/TykTechnologies/benthos/v4/internal/docs"
+	ifilepath "github.com/TykTechnologies/benthos/v4/internal/filepath"
+	"github.com/TykTechnologies/benthos/v4/internal/filepath/ifs"
 )
 
 var (

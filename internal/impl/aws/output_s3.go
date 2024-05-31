@@ -14,9 +14,9 @@ import (
 	"github.com/aws/aws-sdk-go-v2/service/s3"
 	"github.com/aws/aws-sdk-go-v2/service/s3/types"
 
-	"github.com/benthosdev/benthos/v4/internal/impl/aws/config"
-	"github.com/benthosdev/benthos/v4/public/bloblang"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/TykTechnologies/benthos/v4/internal/impl/aws/config"
+	"github.com/TykTechnologies/benthos/v4/public/bloblang"
+	"github.com/TykTechnologies/benthos/v4/public/service"
 )
 
 const (

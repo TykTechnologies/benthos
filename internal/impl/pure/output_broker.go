@@ -4,11 +4,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/benthosdev/benthos/v4/internal/batch/policy"
-	"github.com/benthosdev/benthos/v4/internal/component/interop"
-	"github.com/benthosdev/benthos/v4/internal/component/output"
-	"github.com/benthosdev/benthos/v4/internal/component/output/batcher"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/TykTechnologies/benthos/v4/internal/batch/policy"
+	"github.com/TykTechnologies/benthos/v4/internal/component/interop"
+	"github.com/TykTechnologies/benthos/v4/internal/component/output"
+	"github.com/TykTechnologies/benthos/v4/internal/component/output/batcher"
+	"github.com/TykTechnologies/benthos/v4/public/service"
 )
 
 const (

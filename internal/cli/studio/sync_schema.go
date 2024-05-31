@@ -12,7 +12,7 @@ import (
 
 	"github.com/urfave/cli/v2"
 
-	"github.com/benthosdev/benthos/v4/internal/config/schema"
+	"github.com/TykTechnologies/benthos/v4/internal/config/schema"
 )
 
 func syncSchemaCommand(version, dateBuilt string) *cli.Command {

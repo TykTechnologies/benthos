@@ -11,8 +11,8 @@ import (
 	"github.com/Azure/azure-sdk-for-go/sdk/data/azcosmos"
 	"github.com/mitchellh/mapstructure"
 
-	"github.com/benthosdev/benthos/v4/internal/impl/azure/cosmosdb"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/TykTechnologies/benthos/v4/internal/impl/azure/cosmosdb"
+	"github.com/TykTechnologies/benthos/v4/public/service"
 )
 
 const (

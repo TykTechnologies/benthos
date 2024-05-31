@@ -6,7 +6,7 @@ import (
 
 	"github.com/clbanning/mxj/v2"
 
-	"github.com/benthosdev/benthos/v4/public/bloblang"
+	"github.com/TykTechnologies/benthos/v4/public/bloblang"
 )
 
 func init() {

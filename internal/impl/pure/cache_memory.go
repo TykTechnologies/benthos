@@ -7,7 +7,7 @@ import (
 
 	"github.com/OneOfOne/xxhash"
 
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/TykTechnologies/benthos/v4/public/service"
 )
 
 func memCacheConfig() *service.ConfigSpec {

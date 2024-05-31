@@ -3,8 +3,8 @@ package io
 import (
 	"context"
 
-	"github.com/benthosdev/benthos/v4/internal/httpclient"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/TykTechnologies/benthos/v4/internal/httpclient"
+	"github.com/TykTechnologies/benthos/v4/public/service"
 )
 
 func httpClientOutputSpec() *service.ConfigSpec {

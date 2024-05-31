@@ -14,9 +14,9 @@ import (
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
 
-	"github.com/benthosdev/benthos/v4/internal/impl/mongodb"
-	"github.com/benthosdev/benthos/v4/public/service"
-	"github.com/benthosdev/benthos/v4/public/service/integration"
+	"github.com/TykTechnologies/benthos/v4/internal/impl/mongodb"
+	"github.com/TykTechnologies/benthos/v4/public/service"
+	"github.com/TykTechnologies/benthos/v4/public/service/integration"
 )
 
 func TestProcessorIntegration(t *testing.T) {

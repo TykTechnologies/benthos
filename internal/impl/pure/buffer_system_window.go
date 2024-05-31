@@ -7,10 +7,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/benthosdev/benthos/v4/internal/batch"
-	"github.com/benthosdev/benthos/v4/internal/value"
-	"github.com/benthosdev/benthos/v4/public/bloblang"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/TykTechnologies/benthos/v4/internal/batch"
+	"github.com/TykTechnologies/benthos/v4/internal/value"
+	"github.com/TykTechnologies/benthos/v4/public/bloblang"
+	"github.com/TykTechnologies/benthos/v4/public/service"
 )
 
 func tumblingWindowBufferConfig() *service.ConfigSpec {
