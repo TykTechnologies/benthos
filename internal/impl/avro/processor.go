@@ -205,8 +205,8 @@ func newAvroFromConfig(conf *service.ParsedConfig, mgr *service.Resources) (serv
 		return nil, err
 	}
 	if schemaPath != "" {
-		if !(strings.HasPrefix(schemaPath, "file://") || strings.HasPrefix(schemaPath, "http://")) {
-			return nil, errors.New("invalid schema_path provided, must start with file:// or http://")
+		if !(strings.HasPrefix(schemaPath, "file://") || strings.HasPrefix(schemaPath, "http://") || strings.HasPrefix(schemaPath, "https://")) {
+			return nil, errors.New("invalid schema_path provided, must start with file://, http:// or https://")
 		}
 		if schema, err = loadSchema(schemaPath); err != nil {
 			return nil, fmt.Errorf("failed to load Avro schema definition: %v", err)
